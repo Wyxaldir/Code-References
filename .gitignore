@@ -4,3 +4,11 @@
 .vs/Code References/v15/Browse.VC.db
 *.opendb
 *.ipch
+*.ilk
+*.pdb
+*.tlog
+*.obj
+*.idb
+*.log
+*.db
+.vs/Code References/v15/.suo
