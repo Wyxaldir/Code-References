@@ -13,7 +13,6 @@ void example02(); // basic  vector example
 void example03(); // string vector example
 void example04(); // using the third parameter
 void example05(); // complex types sorting
-void example06(); // exception handling
 
 				  // sorting fuctions
 				  // remember, always needs to return a bool!
@@ -44,9 +43,6 @@ int main()
 
 	cout << "\n\nEXAMPLE 05 - struct sort(s)\n";
 	example05();
-
-	cout << "\n\nEXAMPLE 06 - Exception Handling\n";
-	example06();
 
 	cout << "\n\n\n";
 	system("pause");
@@ -136,19 +132,6 @@ void example05()
 		cout << n.favoriteColor.c_str() << " ";
 
 	cout << endl;
-}
-
-void example06()
-{
-	vector<int> vecInt;
-	try {
-		vecInt.at(10) = 0;
-	}
-	catch (const std::out_of_range orr)
-	{
-		cout << "OUT OF RANGE" << orr.what() << endl;
-	}
-
 }
 
 bool descendingOrder(int i, int j)
