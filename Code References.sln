@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timer", "Timer\Timer.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Loading", "Binary Loading\Binary Loading.vcxproj", "{6C58291A-3AB5-48CF-90E1-CFA5C6504EC1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Macros", "Macros\Macros.vcxproj", "{685AE1D4-4541-48BE-A6C4-20F52B3034BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,8 +83,19 @@ Global
 		{6C58291A-3AB5-48CF-90E1-CFA5C6504EC1}.Release|x64.Build.0 = Release|x64
 		{6C58291A-3AB5-48CF-90E1-CFA5C6504EC1}.Release|x86.ActiveCfg = Release|Win32
 		{6C58291A-3AB5-48CF-90E1-CFA5C6504EC1}.Release|x86.Build.0 = Release|Win32
+		{685AE1D4-4541-48BE-A6C4-20F52B3034BA}.Debug|x64.ActiveCfg = Debug|x64
+		{685AE1D4-4541-48BE-A6C4-20F52B3034BA}.Debug|x64.Build.0 = Debug|x64
+		{685AE1D4-4541-48BE-A6C4-20F52B3034BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{685AE1D4-4541-48BE-A6C4-20F52B3034BA}.Debug|x86.Build.0 = Debug|Win32
+		{685AE1D4-4541-48BE-A6C4-20F52B3034BA}.Release|x64.ActiveCfg = Release|x64
+		{685AE1D4-4541-48BE-A6C4-20F52B3034BA}.Release|x64.Build.0 = Release|x64
+		{685AE1D4-4541-48BE-A6C4-20F52B3034BA}.Release|x86.ActiveCfg = Release|Win32
+		{685AE1D4-4541-48BE-A6C4-20F52B3034BA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E52AA28-4583-4427-8597-B47EBE786BE9}
 	EndGlobalSection
 EndGlobal
